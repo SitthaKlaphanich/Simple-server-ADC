@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/media/sittha/ubuntu data/Simple-server/build/CMakeFiles/bootloader
+/media/sittha/ubuntu data/Simple-server/build/CMakeFiles/bootloader.rule
+/media/sittha/ubuntu data/Simple-server/build/CMakeFiles/bootloader-complete.rule
+/media/sittha/ubuntu data/Simple-server/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/media/sittha/ubuntu data/Simple-server/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/media/sittha/ubuntu data/Simple-server/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/media/sittha/ubuntu data/Simple-server/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/media/sittha/ubuntu data/Simple-server/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/media/sittha/ubuntu data/Simple-server/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/media/sittha/ubuntu data/Simple-server/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
