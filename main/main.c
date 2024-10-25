@@ -34,7 +34,7 @@
 #include "nvs_flash.h"
 #include "esp_eth.h"
 
-#include "dht.h"
+
 
 #endif  // !CONFIG_IDF_TARGET_LINUX
 
@@ -432,10 +432,6 @@ void app_main(void)
         .atten = ADC_ATTEN_DB_12,
     };
     ESP_ERROR_CHECK(adc_oneshot_config_channel(adc1_handle, EXAMPLE_ADC1_CHAN1, &config));
-
-    
-
-
 
     /* This helper function configures Wi-Fi or Ethernet, as selected in menuconfig.
      * Read "Establishing Wi-Fi or Ethernet Connection" section in

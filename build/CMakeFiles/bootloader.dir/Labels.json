@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/media/sittha/ubuntu data/Simple-server/build/CMakeFiles/bootloader"
+			"file" : "D:/Simple-server-F/build/CMakeFiles/bootloader"
 		},
 		{
-			"file" : "/media/sittha/ubuntu data/Simple-server/build/CMakeFiles/bootloader.rule"
+			"file" : "D:/Simple-server-F/build/CMakeFiles/bootloader.rule"
 		},
 		{
-			"file" : "/media/sittha/ubuntu data/Simple-server/build/CMakeFiles/bootloader-complete.rule"
+			"file" : "D:/Simple-server-F/build/CMakeFiles/bootloader-complete.rule"
 		},
 		{
-			"file" : "/media/sittha/ubuntu data/Simple-server/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+			"file" : "D:/Simple-server-F/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
 		},
 		{
-			"file" : "/media/sittha/ubuntu data/Simple-server/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+			"file" : "D:/Simple-server-F/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
 		},
 		{
-			"file" : "/media/sittha/ubuntu data/Simple-server/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+			"file" : "D:/Simple-server-F/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
 		},
 		{
-			"file" : "/media/sittha/ubuntu data/Simple-server/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+			"file" : "D:/Simple-server-F/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
 		},
 		{
-			"file" : "/media/sittha/ubuntu data/Simple-server/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+			"file" : "D:/Simple-server-F/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
 		},
 		{
-			"file" : "/media/sittha/ubuntu data/Simple-server/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+			"file" : "D:/Simple-server-F/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
 		},
 		{
-			"file" : "/media/sittha/ubuntu data/Simple-server/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+			"file" : "D:/Simple-server-F/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
 		}
 	],
 	"target" : 

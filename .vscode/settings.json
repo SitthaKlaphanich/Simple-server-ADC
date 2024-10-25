@@ -1,10 +1,11 @@
 {
     "C_Cpp.intelliSenseEngine": "default",
     "idf.adapterTargetName": "esp32",
-    "idf.customExtraPaths": "/home/sittha/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin:/home/sittha/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin:/home/sittha/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin:/home/sittha/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin:/home/sittha/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin:/home/sittha/.espressif/tools/cmake/3.24.0/bin:/home/sittha/.espressif/tools/openocd-esp32/v0.12.0-esp32-20240318/openocd-esp32/bin:/home/sittha/.espressif/tools/ninja/1.11.1:/home/sittha/.espressif/tools/esp-rom-elfs/20240305",
+    "idf.customExtraPaths": "c:\\espidf\\tools\\xtensa-esp-elf-gdb\\14.2_20240403\\xtensa-esp-elf-gdb\\bin;c:\\espidf\\tools\\riscv32-esp-elf-gdb\\14.2_20240403\\riscv32-esp-elf-gdb\\bin;c:\\espidf\\tools\\xtensa-esp-elf\\esp-13.2.0_20240530\\xtensa-esp-elf\\bin;c:\\espidf\\tools\\riscv32-esp-elf\\esp-13.2.0_20240530\\riscv32-esp-elf\\bin;c:\\espidf\\tools\\esp32ulp-elf\\2.38_20240113\\esp32ulp-elf\\bin;c:\\espidf\\tools\\cmake\\3.24.0\\bin;c:\\espidf\\tools\\openocd-esp32\\v0.12.0-esp32-20240318\\openocd-esp32\\bin;c:\\espidf\\tools\\ninja\\1.11.1;c:\\espidf\\tools\\idf-exe\\1.0.3;c:\\espidf\\tools\\ccache\\4.8\\ccache-4.8-windows-x86_64;c:\\espidf\\tools\\dfu-util\\0.11\\dfu-util-0.11-win64;c:\\espidf\\tools\\esp-rom-elfs\\20240305",
     "idf.customExtraVars": {
-        "OPENOCD_SCRIPTS": "/home/sittha/.espressif/tools/openocd-esp32/v0.12.0-esp32-20240318/openocd-esp32/share/openocd/scripts",
-        "ESP_ROM_ELF_DIR": "/home/sittha/.espressif/tools/esp-rom-elfs/20240305/"
+        "OPENOCD_SCRIPTS": "c:\\espidf\\tools\\openocd-esp32\\v0.12.0-esp32-20240318/openocd-esp32/share/openocd/scripts",
+        "IDF_CCACHE_ENABLE": "1",
+        "ESP_ROM_ELF_DIR": "c:\\espidf\\tools\\esp-rom-elfs\\20240305/"
     },
     "idf.espIdfPath": "/media/sittha/ubuntu data/espidf/v5.3.1/esp-idf",
     "idf.openOcdConfigs": [
@@ -13,5 +14,10 @@
     "idf.port": "/dev/ttyUSB0",
     "idf.pythonBinPath": "/home/sittha/.espressif/python_env/idf5.3_py3.12_env/bin/python",
     "idf.toolsPath": "/home/sittha/.espressif",
-    "idf.flashType": "UART"
+    "idf.flashType": "UART",
+    "idf.portWin": "COM3",
+    "idf.espIdfPathWin": "c:\\esp\\v5.3.1\\esp-idf",
+    "idf.pythonBinPathWin": "c:\\espidf\\python_env\\idf5.3_py3.11_env\\Scripts\\python.exe",
+    "idf.toolsPathWin": "c:\\espidf",
+    "idf.gitPathWin": "c:\\espidf\\tools\\idf-git\\2.39.2\\cmd\\git.exe"
 }
