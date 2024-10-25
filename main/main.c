@@ -39,7 +39,7 @@
 #endif  // !CONFIG_IDF_TARGET_LINUX
 
 #define EXAMPLE_HTTP_QUERY_KEY_MAX_LEN  (64)
-#define EXAMPLE_ADC1_CHAN1   ADC_CHANNEL_0
+#define ADC1_CHAN1   ADC_CHANNEL_0
 static adc_oneshot_unit_handle_t adc1_handle;
 
 
@@ -191,7 +191,7 @@ static esp_err_t hello_get_handler(httpd_req_t *req)
     //3
 
         // อ่านค่าจาก ADC
-    adc_oneshot_read(adc1_handle, EXAMPLE_ADC1_CHAN1, &adc_raw);
+    adc_oneshot_read(adc1_handle, ADC1_CHAN1, &adc_raw);
 
     // อัพเดท
     sprintf(analogtxt, "<H1> Voltage = %d </H1>", adc_raw);
@@ -431,7 +431,7 @@ void app_main(void)
         .bitwidth = ADC_BITWIDTH_DEFAULT,
         .atten = ADC_ATTEN_DB_12,
     };
-    ESP_ERROR_CHECK(adc_oneshot_config_channel(adc1_handle, EXAMPLE_ADC1_CHAN1, &config));
+    ESP_ERROR_CHECK(adc_oneshot_config_channel(adc1_handle, ADC1_CHAN1, &config));
 
     /* This helper function configures Wi-Fi or Ethernet, as selected in menuconfig.
      * Read "Establishing Wi-Fi or Ethernet Connection" section in
